@@ -1,0 +1,40 @@
+#title {
+	display: block;
+	text-align: center;
+}
+#validation {
+	color: red;
+}
+
+#instructions {
+	display:inline-block;
+	position: relative;
+	left: 45%;
+	top: 20%;
+}
+#playfield1, #playfield3 {
+	position: relative;
+	left: 20%;
+	top: 20%;
+}
+#playfield2, #playfield4 {
+	position: relative;
+	left: 60%;
+	top: 20%;
+}
+.crossed {
+	color: red;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+	font-size: 200%;
+
+}
+.square {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	background-color: white;
+}
